@@ -15,6 +15,8 @@
 		536BC94A20F6D0B200D1FCE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 536BC94920F6D0B200D1FCE4 /* main.m */; };
 		536BC95420F6D0B200D1FCE4 /* BlockPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 536BC95320F6D0B200D1FCE4 /* BlockPracticeTests.m */; };
 		536BC95F20F6D0B200D1FCE4 /* BlockPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 536BC95E20F6D0B200D1FCE4 /* BlockPracticeUITests.m */; };
+		536BC96E20F6D11D00D1FCE4 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 536BC96D20F6D11D00D1FCE4 /* ViewController2.m */; };
+		536BC97120F6D20200D1FCE4 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 536BC97020F6D20200D1FCE4 /* MyObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		536BC95A20F6D0B200D1FCE4 /* BlockPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		536BC95E20F6D0B200D1FCE4 /* BlockPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockPracticeUITests.m; sourceTree = "<group>"; };
 		536BC96020F6D0B200D1FCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536BC96C20F6D11D00D1FCE4 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		536BC96D20F6D11D00D1FCE4 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		536BC96F20F6D20200D1FCE4 /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		536BC97020F6D20200D1FCE4 /* MyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				536BC93D20F6D0B000D1FCE4 /* ViewController.h */,
 				536BC93E20F6D0B000D1FCE4 /* ViewController.m */,
 				536BC94020F6D0B000D1FCE4 /* Main.storyboard */,
+				536BC96F20F6D20200D1FCE4 /* MyObject.h */,
+				536BC97020F6D20200D1FCE4 /* MyObject.m */,
+				536BC96C20F6D11D00D1FCE4 /* ViewController2.h */,
+				536BC96D20F6D11D00D1FCE4 /* ViewController2.m */,
 				536BC94320F6D0B200D1FCE4 /* Assets.xcassets */,
 				536BC94520F6D0B200D1FCE4 /* LaunchScreen.storyboard */,
 				536BC94820F6D0B200D1FCE4 /* Info.plist */,
@@ -263,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				536BC93F20F6D0B000D1FCE4 /* ViewController.m in Sources */,
+				536BC96E20F6D11D00D1FCE4 /* ViewController2.m in Sources */,
 				536BC94A20F6D0B200D1FCE4 /* main.m in Sources */,
 				536BC93C20F6D0B000D1FCE4 /* AppDelegate.m in Sources */,
+				536BC97120F6D20200D1FCE4 /* MyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
